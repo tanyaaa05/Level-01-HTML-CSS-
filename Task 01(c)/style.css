@@ -1,0 +1,59 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the Navbar */
+.navbar {
+    background-color: #5a9bd4; 
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar__item {
+    margin: 0 15px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+/* Different border styles for each item */
+.navbar__item--solid .navbar__link {
+    border: 2px solid #fff;
+}
+
+.navbar__item--dotted .navbar__link {
+    border: 2px dotted #fff;
+}
+
+.navbar__item--dashed .navbar__link {
+    border: 2px dashed #fff;
+}
+
+.navbar__item--double .navbar__link {
+    border: 2px double #fff;
+}
+
+.navbar__item--groove .navbar__link {
+    border: 2px groove #fff;
+}
+
+/* Hover effect */
+.navbar__link:hover {
+    color: #454545; /* Dark color on hover */
+    border-color: #454545; /* Dark color of border on hover */
+}
