@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id="wrapper">
+      
+      <div>
+        <h1>Form Demo</h1>
+      </div>
+      
+      <div>
+        
+        <form action="submitForm.html">
+
+        <label for="uname">Enter Name</label> <br />
+          <input type="text" id="uname" name="uname" /><br />
+
+        <label for="age">Enter Age</label> <br />
+          <input type="number" id="age" name="age" /><br />
+
+        <label for="color">Choose Color</label> <br />
+          <input type="color" id="color" name="color" /><br />
+
+        <label for="mail">Enter Email Id</label> <br />
+          <input type="email" id="mail" name="mail" /><br />
+
+        <label for="dob">Enter Date of Birth</label> <br />
+          <input type="date" id="dob" name="dob" /> <br />
+          <br />
+
+        <label for="adress">Enter Address</label><br />
+          <textarea name="address" id="address" cols="30" rows="10"></textarea>
+          <br />
+
+        <label for="gender">Select Gender</label> <br />
+          <input type="radio" id="male" name="gender" value="male" />
+        <label for="gender">Male</label> <br />
+          <input type="radio" id="female" name="gender" value="female" />
+        <label for="gender">Female</label> <br />
+
+        <label for="lang">Languages Known</label> <br />
+          <input type="checkbox" id="hindi" name="hindi" />
+        <label for="hindi">Hindi</label> <br />
+          <input type="checkbox" id="english" name="english" />
+        <label for="english">English</label> <br />
+          <input type="checkbox" id="French" name="French" />
+        <label for="french">French</label> <br />
+
+        <label for="city">City</label>
+          <select name="city" id="city">
+            <option value="del">Delhi</option>
+            <option value="mum">Mumbai</option>
+            <option value="chd">Chandigarh</option>
+            <option value="mbd">Moradabad</option>
+            <option value="ggn">Gurgaon</option>
+        </select><br />
+
+        <input type="submit" value="submit"/>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
