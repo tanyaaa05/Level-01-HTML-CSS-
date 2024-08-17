@@ -1,2 +1,26 @@
-# Level-01-HTML-CSS-
-HTML/CSS Task Completion - Web Developer Intern at Cognifyz Technologies  Completed tasks involving HTML and CSS, including creating responsive designs, building user-friendly interfaces, and optimizing web pages. Enhanced front-end development and web design skills.
+HTML/CSS Task Completion 🖥️✨
+
+
+Completed tasks involving HTML and CSS, including:
+
+🏗️ Creating responsive designs
+
+🎨 Building user-friendly interfaces
+
+⚙️ Optimizing web pages
+
+
+
+Enhanced front-end development skills with a focus on:
+
+HTML 📜
+
+CSS 🎨
+
+Tailwind CSS 🌟
+
+JavaScript 💻
+
+
+Improved overall web design and development proficiency through practical experience and use of modern frameworks.
+
